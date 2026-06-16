@@ -144,16 +144,6 @@ export default function TeamPage() {
         </div>
       </section>
 
-      {/* ── IMPORTANT NOTICE FOR CLUB ── */}
-      <section className="pb-8">
-        <div className="max-w-7xl mx-auto px-6">
-          <div className="border border-aws-orange/30 bg-aws-orange/5 p-6 font-mono text-xs text-aws-orange/80 tracking-wider">
-            <span className="text-aws-orange font-bold">// DEVELOPER NOTE: </span>
-            Replace the placeholder team data in <code>/app/team/page.tsx</code> with your actual team members' names, roles, photos, LinkedIn profiles, and bios. The avatars use DiceBear API — swap with real photos via Next.js Image component.
-          </div>
-        </div>
-      </section>
-
       {/* Organizer */}
       <section className="py-16">
         <div className="max-w-7xl mx-auto px-6">
