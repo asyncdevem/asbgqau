@@ -1,5 +1,5 @@
 ﻿import Link from 'next/link'
-import { Cloud, Instagram, Linkedin, ExternalLink } from 'lucide-react'
+import { Cloud, Instagram, Linkedin, ExternalLink, Github } from 'lucide-react'
 
 export default function Footer() {
   return (
@@ -75,13 +75,28 @@ export default function Footer() {
           </div>
         </div>
 
-        <div className="mt-14 pt-8 border-t border-aws-orange/10 flex flex-col md:flex-row items-center justify-between gap-4">
-          <p className="font-mono text-xs text-aws-muted tracking-wider">
-            © 2026 AWS Student Builder Group QAU · All rights reserved
-          </p>
-          <p className="font-mono text-xs text-aws-muted">
-            Powered by AWS Student Builder Groups
-          </p>
+        <div className="mt-14 pt-8 border-t border-aws-orange/10">
+          <div className="flex flex-col md:flex-row items-center justify-between gap-4 mb-4">
+            <p className="font-mono text-xs text-aws-muted tracking-wider">
+              © 2026 AWS Student Builder Group QAU · All rights reserved
+            </p>
+            <p className="font-mono text-xs text-aws-muted">
+              Powered by AWS Student Builder Groups
+            </p>
+          </div>
+          <div className="flex items-center justify-center gap-2 pt-4 border-t border-aws-orange/5">
+            <p className="font-mono text-[10px] text-aws-muted/70">
+              Built by <span className="text-aws-orange/90">Muhammad Adnan Sultan</span> · TechOps Lead
+            </p>
+            <a href="https://www.linkedin.com/in/dev-madnansultan/" target="_blank" rel="noopener noreferrer"
+               className="text-aws-muted/60 hover:text-aws-orange transition-colors">
+              <Linkedin size={12} />
+            </a>
+            <a href="https://github.com/madnansultandotme" target="_blank" rel="noopener noreferrer"
+               className="text-aws-muted/60 hover:text-aws-orange transition-colors">
+              <Github size={12} />
+            </a>
+          </div>
         </div>
       </div>
     </footer>
